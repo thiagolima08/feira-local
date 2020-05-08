@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.title{
+  background-image: url('../assets/fruits1.jpg');
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title .text{
+  width: 574px;
+  height: 110px;
+  background: rgba(229, 229, 229, 0.88);
+  border-radius: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.title .text p{
+  font-family: 'Anton', sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #0080AF;
+  margin: 0 auto;
+}
+
+.title a{
+  color:#0080AF;
+  font-weight: bold;
+  outline: 0;
+  text-decoration: none;
+}
+
+#nav-search{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: baseline;
+}
+
+
+
+@media screen and (max-width:600px){
+  #nav-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,15 +1,29 @@
-<div class="title">
-  <a routerLink="">
-    <div class="text">
-      <p>Feira Local</p>
-    </div>
-  </a>
+<div class="navbar">
+  <ul class="nav">
+    <button (click)="show = !show"><img src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"/></button>
+    <ngx-nav-drawer [(open)]="show">
+      <a routerLink="">Categorias</a>
+      <a [routerLink]="['bebidas']" style="text-decoration: none;">Bebidas</a>
+      <a [routerLink]="['cereais']" style="text-decoration: none;">Cereais</a>
+      <a [routerLink]="['hortifrutis']" style="text-decoration: none;">Hortifrútis</a>
+      <a [routerLink]="['laticinios']" style="text-decoration: none;">Laticínios</a>
+      <a [routerLink]="['outros']" style="text-decoration: none;">Outros</a>
+    </ngx-nav-drawer>
+    <li class="nav-item">
+      <a class="nav-link active" routerLink="">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="">Quem somos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="">Contato</a>
+    </li>
+  </ul>
+  <div class="search">
+    <app-search-bar></app-search-bar>
+  </div>
 </div>
-<div id="nav-search">
-  <app-menu style="align-self: flex-start;"></app-menu>
-  <app-search-bar></app-search-bar>
-</div>
-<div class="cards" style="margin-bottom: 40px;">
+<div class="cards" style="margin-bottom: 40px; margin-top: 20px;min-height: 60vh; display: flex;align-items: center;justify-content: center;">
   <router-outlet></router-outlet>
 </div>
 <app-footer></app-footer>

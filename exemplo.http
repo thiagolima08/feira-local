@@ -1,0 +1,14 @@
+ http://localhost:3000/produtos
+
+###
+
+POST http://localhost:3000/produtos HTTP/1.1
+content-type: application/json
+
+{
+  "id": 8,
+  "nome": "macaxeira",
+  "categoria": "Hortifrútis"
+}
+###
+

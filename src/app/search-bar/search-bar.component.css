@@ -10,4 +10,5 @@
 .input-group input{
   width: 30vw;
   max-width: 400px;
+  border-color: rgba(0, 0, 0, 0.37);
 }

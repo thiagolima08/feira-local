@@ -1,6 +1,6 @@
 <div class="navbar">
   <ul class="nav">
-    <button (click)="show = !show"><img src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"/></button>
+    <button (click)="show = !show" data-toggle="tooltip" data-placement="bottom" title="Menu"><img src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"/></button>
     <ngx-nav-drawer [(open)]="show">
       <a routerLink="">Categorias</a>
       <a [routerLink]="['bebidas']" style="text-decoration: none;">Bebidas</a>

@@ -9,6 +9,7 @@
 .navbar button{
   background-color: transparent;
   border: none;
+  outline: 0;
 }
 
 .nav-link{

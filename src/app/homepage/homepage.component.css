@@ -1,11 +1,16 @@
 @media (min-width: 767.98px) {
-  #carouselExampleFade{
+  #home{
     max-width: 1000px;
     max-height: 525px;
   }
- }
+}
+
+#home{
+  margin-top: 10px;
+}
 
  img{
    filter: brightness(88%);
    filter: grayscale(55%);
+   max-height: 75vh;
  }

@@ -27,16 +27,21 @@
     },
     {
       "id": 6,
+      "nome": "goiaba",
+      "categoria": "Hortifrútis"
+    },
+    {
+      "id": 7,
       "nome": "perfume",
       "categoria": "Outros"
     },
     {
-      "id": 7,
+      "id": 8,
       "nome": "inhame",
       "categoria": "Hortifrútis"
     },
     {
-      "id": 8,
+      "id": 9,
       "nome": "macaxeira",
       "categoria": "Hortifrútis"
     }

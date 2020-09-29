@@ -1,14 +1,14 @@
 <nav id="navbar">
   <ul class="nav">
     <button (click)="show = !show" data-toggle="tooltip" data-placement="bottom" title="Menu"><img src="https://img.icons8.com/ios-glyphs/24/000000/menu.png"/></button>
-    <ngx-nav-drawer [(open)]="show">
+    <mat-drawer>
       <a routerLink="">Categorias</a>
       <a [routerLink]="['bebidas']">Bebidas</a>
       <a [routerLink]="['cereais']">Cereais</a>
       <a [routerLink]="['hortifrutis']">Hortifrútis</a>
       <a [routerLink]="['laticinios']">Laticínios</a>
       <a [routerLink]="['outros']">Outros</a>
-    </ngx-nav-drawer>
+    </mat-drawer>
     <li class="nav-item">
       <a class="nav-link active" href="#">Home</a>
     </li>

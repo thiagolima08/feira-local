@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NgxNavDrawerModule } from '@ngx-lite/nav-drawer';
 
 import { FooterComponent } from './footer/footer.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
@@ -38,7 +37,6 @@ import { HortifrutisComponent } from './categorias/hortifrutis/hortifrutis.compo
     MatMenuModule,
     MatCardModule,
     ReactiveFormsModule,
-    NgxNavDrawerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,7 +7,6 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { FooterComponent } from './footer/footer.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CardProdutoFeiranteComponent } from './card-produto-feirante/card-produto-feirante.component';
 import { HomepageComponent } from './homepage/homepage.component';
@@ -20,7 +19,6 @@ import { HortifrutisComponent } from './categorias/hortifrutis/hortifrutis.compo
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     SearchBarComponent,
     CardProdutoFeiranteComponent,
     HomepageComponent,
